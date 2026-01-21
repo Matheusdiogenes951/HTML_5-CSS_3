@@ -5,7 +5,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    color: #000000;
+    color: #00ff11;
 }
 
 h2 {
@@ -21,3 +21,22 @@ p {
     background-color: #3a3a3a;
 }
 
+.basico {
+    color: #bfdc00;
+
+}
+
+.intermediario {
+    color: rgb(135, 153, 16);
+}
+
+.avancado {
+    color: rgb(89, 103, 0);
+}
+
+.destaque {
+    font-weight: bold;
+    font-size: 30px;
+    color: #00ff08;
+    background-color: #262626;
+}
