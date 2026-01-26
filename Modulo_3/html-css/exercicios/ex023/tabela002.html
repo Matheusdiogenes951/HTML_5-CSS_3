@@ -24,15 +24,20 @@
         .num {
             text-align: right;
         }
+        caption {
+            background-color: lightgrey;
+            font-family: 'Courier New', Courier, monospace;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>Populacao das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populacao</th>  
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">Populacao</th>  
             </tr>
         </thead>
         <tbody>
@@ -123,7 +128,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td>00000000</td>
             </tr>
         </tfoot>
