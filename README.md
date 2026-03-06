@@ -36,7 +36,6 @@ Cada módulo representa uma etapa do curso e está organizado da seguinte forma:
 * `Modulo_2`
 * `Modulo_3`
 * `Modulo_4`
-* `Modulo_5`
 
 Dentro de cada módulo estão os exercícios práticos realizados durante as aulas.
 
